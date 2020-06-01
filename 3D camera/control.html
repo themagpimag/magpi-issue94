@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .viewfinder {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>3D Camera</h1>
+    <div class="viewfinder">
+      <img src="http://leftcam.local:8080/?action=stream" />
+      <img src="http://rightcam.local:8080/?action=stream" />
+    </div>
+    <form method="post" action="/">
+      <button>Snap!</button>
+    </form>
+  </body>
+</html>
